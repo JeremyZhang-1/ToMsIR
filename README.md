@@ -1,4 +1,4 @@
-# ToMsIR
+# ToMsIR: Task-oriented Multi-scene Image Restoration
 # ToMsIR: Task-oriented Multi-scene Image Restoration for Visual Perception in Autonomous Vehicles
 #  Introduction
 ToMsIR is a task-oriented multi-scene image restoration framework designed for intelligent vehicle perception under adverse weather. It targets both single and mixed degradations, including haze, rain, snow, and their combinations, which often cause severe visibility reduction, detail loss, and complex nonlinear artifacts that degrade downstream perception reliability.
