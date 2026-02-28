@@ -18,6 +18,17 @@ python3 -m pip install opencv-python==4.4.0.46
 ```
 
 # Result
+Qualitative comparison of state-of-the-art dehazing methods on the RESIDE dataset. The figure presents the hazy input and the corresponding restored results produced by DCP, MSCNN, AODNet, FFANet, DehazeFormer, AiOENet, AirNet, TransW, MIRNet, WeatherDiff, MvkSR, DGdehazing, SFMN and ToMsIR, along with the ground truth reference.
+![Figure_07](https://github.com/user-attachments/assets/8d3c5660-688a-416c-bfbf-a3f3107ad4c7)
+
+Qualitative comparison of state-of-the-art deraining methods on the Rain100L dataset. The figure presents the rainy input and the corresponding restored results produced by DDN, DID, LPNet, DIG, DualGCN, AiOENet, AirNet, TransW, MIRNet, WeatherDiff, MvkSR, PADUM, CSUD and ToMsIR, along with the ground truth reference.
+![Figure_08](https://github.com/user-attachments/assets/43802f04-bcab-4355-8735-dd2a621f1e6b)
+
+Qualitative comparison of state-of-the-art desnowing methods on the CSD dataset. The figure presents the snowy input and the corresponding restored results produced by JSTASR, CodeNet, DRT, UMWT, FocalNet, AiOENet, AirNet, TransW, MIRNet, WeatherDiff, MvkSR, DSANet, SnowMaster and ToMsIR, along with the ground truth reference.
+![Figure_09](https://github.com/user-attachments/assets/dcae155f-81b7-48df-9f09-5b04207fffdd)
+
+Qualitative comparison of state-of-the-art multi-scene image restoration methods on the CDD-11 dataset. The figure presents the degraded input and the corresponding restored results produced by AirNet, TransW, MIRNet, WeatherDiff, MvkSR, USRNet and ToMsIR, along with the ground truth reference.
+![Figure_10](https://github.com/user-attachments/assets/3a4bcae3-4370-4f26-9149-1ba7244974c1)
 
 
 # License
