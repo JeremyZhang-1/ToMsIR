@@ -18,8 +18,7 @@ python3 -m pip install scipy==1.7.3
 python3 -m pip install opencv-python==4.4.0.46
 ```
 # Checkpoint
-The pretrained model checkpoint can be downloaded from Google Drive:
-Download link: https://drive.google.com/file/d/1xgTAgWbV4QjULySwBxXLSOpVUYRgpvxY/view?usp=sharing
+The pretrained model checkpoint can be downloaded from Google Drive: Our pre-trained model will be made publicly available upon acceptance of the paper.
 
 # Result
 Qualitative comparison of state-of-the-art dehazing methods on the RESIDE dataset. The figure presents the hazy input and the corresponding restored results produced by DCP, MSCNN, AODNet, FFANet, DehazeFormer, AiOENet, AirNet, TransW, MIRNet, WeatherDiff, MvkSR, DGdehazing, SFMN and ToMsIR, along with the ground truth reference.
