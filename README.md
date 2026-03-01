@@ -6,6 +6,7 @@ ToMsIR is a task-oriented multi-scene image restoration framework designed for i
 # Abstract
 Adverse environmental conditions such as haze, rain, and snow, particularly when they co-occur, can severely degrade image quality and undermine the reliability of vision-based systems in intelligent vehicles. These degradations obscure structural details, reduce visibility, and introduce complex nonlinear interactions that challenge key perception tasks such as object detection, lane recognition, and scene understanding. To address these challenges, this paper presents a task-oriented multi-scene image restoration framework (termed ToMsIR) tailored for diverse single and mixed degradations. ToMsIR adopts a modular architecture that integrates multi-scale feature extraction, frequency-domain enhancement, and degradation-guided adaptive processing. In particular, a degradation-aware visual prompting mechanism is introduced, where the degradation classification network identifies the underlying degradation type and distribution to generate prompt-like representations that guide adaptive refinement. The shared-parameter encoder captures both local structures and global context, while the frequency enhancement module restores degradation-sensitive cues in the frequency domain. Furthermore, the adaptive fusion module dynamically adjusts restoration strategies based on the predicted degradation prompts, achieving fine-grained adaptation across complex scenes. Extensive experiments demonstrate that ToMsIR surpasses existing methods under haze, rain, snow, and their hybrid combinations. The restored images also yield more reliable inputs for downstream perception tasks in autonomous driving, highlighting the framework’s potential to enhance the robustness and safety of intelligent vehicles operating in adverse weather conditions.
 
+![Figure_02](https://github.com/user-attachments/assets/bc81e0c8-d6b8-45ff-8599-b1324cda41d2)
 
 
 # Prerequisites
@@ -16,6 +17,7 @@ conda install pytorch=1.10.2 torchvision torchaudio cudatoolkit=11.3 -c pytorch
 python3 -m pip install scipy==1.7.3
 python3 -m pip install opencv-python==4.4.0.46
 ```
+
 
 # Result
 Qualitative comparison of state-of-the-art dehazing methods on the RESIDE dataset. The figure presents the hazy input and the corresponding restored results produced by DCP, MSCNN, AODNet, FFANet, DehazeFormer, AiOENet, AirNet, TransW, MIRNet, WeatherDiff, MvkSR, DGdehazing, SFMN and ToMsIR, along with the ground truth reference.
